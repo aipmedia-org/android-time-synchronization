@@ -1,13 +1,11 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.aipmedia-org'
+apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.0"
 
     defaultConfig {
-
-        minSdkVersion 10
+        applicationId "com.kelebro63.syncdatetimeapp"
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
